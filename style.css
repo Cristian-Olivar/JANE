@@ -27,8 +27,8 @@ img {
 }
 
 .img {
-    width: 65%; 
-    height: 260px;
+    width: 75%; 
+    height: 240px;
     overflow: hidden;
     border-radius: 50%;
     border: 3px solid var(--white);
@@ -108,7 +108,7 @@ img {
 }
 
 @media (width <= 468px) {
-    .links, .hero {
+    .links, .hero .img {
         width: 100%;
         padding: 0 1rem;
     }
